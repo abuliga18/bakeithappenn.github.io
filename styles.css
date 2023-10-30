@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'EB Garamond', serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.9);  
+}
+
+img {
+    width: 8%;
+    height: auto;   
+}
+
+.header_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;  
+    align-items: center;
+}
+
+nav li{
+    margin: 0 0.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+    color: #D29E8C;
+}
+
+nav li a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+nav li:hover {
+    background-color: #cba598;
+    color: white;
+    border-radius: 50%;
+    color: white;
+}
+
+.contact {
+    margin-right: 1.2rem;
+}
+
+.contact img {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0 0.25rem;
+    padding: 0.4rem;
+    cursor: pointer;
+}
+
+.banner {
+    height: 20rem;
+    background-image: url(images/Untitled\ design\ \(1\).png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1 {
+    margin-top: 5.5rem;
+    font-family: 'Rubik Vinyl';
+    font-size: 5rem;
+    color: #ffffff;
+}
+
+.headline {
+    height: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline p {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #D29E8C;
+    text-shadow: 2px 2px 4px rgb(222, 144, 170);
+}
+
+#headline_two p {
+    text-decoration: underline;
+}
+
+.section_one {
+    background-color: rgb(222, 144, 170);
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_one div {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 100%); 
+    color: #ac7360;
+    height: 70%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.1rem 1.25rem;  
+}
+
+.section_one div h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    color:#ac7360;
+}
+
+.section_one p {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.section_one p span {
+    font-family: 'Rubik Vinyl';
+    margin: 0.3rem;
+    color: #D29E8C;
+}
+
+.section_two, .section_three {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section_two div {
+   background-image: linear-gradient(to bottom, rgba(210, 158, 140, 1) 0%, rgba(210, 158, 140, 0) 100%);
+   margin: 1.25rem;
+   height: 28rem;
+   width: 25rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+
+.section_two figure {
+   text-align: center;
+}
+
+.section_two figure img {
+    width: 21rem;
+    height: 21rem;
+}
+
+.section_two figure figcaption {
+    margin-top: 0.6rem;
+    color: rgb(222, 144, 170);
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.section_three div {
+    width: 25rem;
+    height: 37.5rem;
+    background-image: linear-gradient(to bottom, rgb(222, 144, 170), transparent);
+    margin: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.section_three figure img {
+    width: 21rem;
+    height: 28rem;
+}
+
+.section_three figure figcaption {
+    margin-top: 0.8rem;
+    color: #ac7360;
+    text-align: center;
+}
+
+.section_three figure figcaption h3{
+    font-size: 1.3rem;
+}
+
+.section_three figure figcaption p{
+    font-size: 1.25rem;
+}
+
+footer {
+    background-color: #D29E8C;
+    color: white;
+    padding: 1.25rem;
+    text-align: center;
+    line-height: 1.8rem;
+}
+
+footer h3 {
+    font-family: 'Rubik Vinyl';
+    font-size: 1.5rem;
+    margin-bottom: 0.6rem;
+}
+
+#copyright {
+    margin-top: 1.25rem;;
+    font-size: 0.6rem;
+}
+
+@media only screen and (max-width: 490px) {
+    html {
+        font-size: 7px;
+      }
+
+    header {
+        margin-top: 0;
+    }
+  }
+
+  
+
+
+
+
+
+
+
+
+
